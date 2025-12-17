@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automotive Consultancy - Bhagyalakshmi Tech</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .service-icon {
+            font-size: 2.5rem;
+            line-height: 1;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm py-4">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-indigo-700">Bhagyalakshmi Tech</a>
+            <nav class="hidden md:block">
+                <ul class="flex space-x-6">
+                    <li><a href="index.html#hero" class="text-gray-600 hover:text-indigo-700 transition duration-300">Home</a></li>
+                    <li><a href="index.html#services" class="text-gray-600 hover:text-indigo-700 transition duration-300">Services</a></li>
+                    <li><a href="index.html#contact" class="text-gray-600 hover:text-indigo-700 transition duration-300">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- Mobile Menu Button (Hamburger) -->
+            <button class="md:hidden text-gray-600 hover:text-indigo-700 focus:outline-none" aria-label="Toggle navigation">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section for Automotive Consultancy -->
+    <section class="bg-indigo-700 text-white py-20 md:py-24 text-center">
+        <div class="container mx-auto px-4">
+            <h1 class="text-4xl md:text-5xl font-extrabold leading-tight mb-4">
+                Expert Guidance for the Automotive Sector
+            </h1>
+            <p class="text-lg md:text-xl mb-8 max-w-3xl mx-auto">
+                Specialized consulting services for automotive businesses, helping navigate industry challenges and capitalize on emerging trends.
+            </p>
+            <a href="index.html#contact" class="bg-white text-indigo-700 hover:bg-indigo-100 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+                Discuss Your Project
+            </a>
+        </div>
+    </section>
+
+    <!-- Detailed Services Section -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">Our Expertise Includes:</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Market Analysis -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-indigo-600 service-icon mb-4">🔍</div>
+                    <h3 class="text-xl font-semibold mb-2">Market Analysis</h3>
+                    <p class="text-gray-600 mb-4">In-depth analysis of automotive market trends, consumer behavior, and competitive landscapes to inform strategic decisions.</p>
+                    <ul class="list-disc list-inside text-gray-600">
+                        <li>Market sizing & segmentation</li>
+                        <li>Competitive intelligence</li>
+                        <li>Demand forecasting</li>
+                    </ul>
+                </div>
+
+                <!-- Supply Chain Optimization -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-indigo-600 service-icon mb-4">🔗</div>
+                    <h3 class="text-xl font-semibold mb-2">Supply Chain Optimization</h3>
+                    <p class="text-gray-600 mb-4">Streamlining automotive supply chain processes to enhance efficiency, reduce costs, and improve resilience.</p>
+                    <ul class="list-disc list-inside text-gray-600">
+                        <li>Logistics & inventory management</li>
+                        <li>Supplier relationship management</li>
+                        <li>Risk mitigation strategies</li>
+                    </ul>
+                </div>
+
+                <!-- EV Transition Strategy -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-indigo-600 service-icon mb-4">⚡</div>
+                    <h3 class="text-xl font-semibold mb-2">EV Transition Strategy</h3>
+                    <p class="text-gray-600 mb-4">Guidance for businesses adapting to the electric vehicle revolution, covering product development, infrastructure, and market entry.</p>
+                    <ul class="list-disc list-inside text-gray-600">
+                        <li>EV product roadmap</li>
+                        <li>Charging infrastructure planning</li>
+                        <li>Regulatory compliance</li>
+                    </ul>
+                </div>
+
+                <!-- Dealership Management -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-indigo-600 service-icon mb-4">🚗</div>
+                    <h3 class="text-xl font-semibold mb-2">Dealership Management</h3>
+                    <p class="text-gray-600 mb-4">Consulting services to optimize dealership operations, sales processes, customer experience, and profitability.</p>
+                    <ul class="list-disc list-inside text-gray-600">
+                        <li>Sales & marketing strategies</li>
+                        <li>Customer relationship management</li>
+                        <li>Operational efficiency improvements</li>
+                    </ul>
+                </div>
+
+                <!-- Aftermarket Services -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-indigo-600 service-icon mb-4">🔧</div>
+                    <h3 class="text-xl font-semibold mb-2">Aftermarket Services</h3>
+                    <p class="text-gray-600 mb-4">Developing strategies for parts, service, and accessories to enhance customer loyalty and generate additional revenue streams.</p>
+                    <ul class="list-disc list-inside text-gray-600">
+                        <li>Service center optimization</li>
+                        <li>Parts inventory management</li>
+                        <li>Customer retention programs</li>
+                    </ul>
+                </div>
+
+                <!-- Digital Transformation in Automotive -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-indigo-600 service-icon mb-4">💻</div>
+                    <h3 class="text-xl font-semibold mb-2">Digital Transformation</h3>
+                    <p class="text-gray-600 mb-4">Guiding automotive companies through digital transformation, from connected car technologies to online sales platforms.</p>
+                    <ul class="list-disc list-inside text-gray-600">
+                        <li>Connected car strategies</li>
+                        <li>E-commerce integration</li>
+                        <li>Data analytics implementation</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="text-center mt-16">
+                <h3 class="text-2xl font-bold text-gray-800 mb-4">Ready to drive innovation in your automotive business?</h3>
+                <p class="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
+                    Partner with Bhagyalakshmi Tech for expert automotive consultancy that accelerates your success.
+                </p>
+                <a href="index.html#contact" class="bg-indigo-700 text-white hover:bg-indigo-800 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+                    Discuss Your Project
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300 py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2023 Bhagyalakshmi Tech. All rights reserved.</p>
+            <div class="mt-4">
+                <a href="#" class="text-gray-400 hover:text-white mx-2">Privacy Policy</a>
+                <span class="text-gray-500">|</span>
+                <a href="#" class="text-gray-400 hover:text-white mx-2">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
